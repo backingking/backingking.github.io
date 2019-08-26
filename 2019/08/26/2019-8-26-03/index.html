@@ -8,17 +8,17 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>2019082603GETPOST区别 | icek Love Life Ann Writing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="白帽子学web安全笔记02浏览器安全02GET POST区别一 原理区别 一般在浏览器中输入网址访问资源都是通过GET方式；在FORM提交中，可以通过Method指定提交方式为GET或者POST，默认为GET提交 Http定义了与服务器交互的不同方法，最基本的方法有4种，分别是GET，POST，PUT，DELETE URL全称是资源描述符，我们可以这样认为：一个URL地址，它用于描述一个网络上的资">
+  <meta name="description" content="白帽子学web安全笔记02浏览器安全02GET POST区别一 原理区别 一般在浏览器中输入网址访问资源都是通过GET方式；在FORM提交中，可以通过Method指定提交方式为GET或者POST，默认为GET提交 Http定义了与服务器交互的不同方法，最基本的方法有4种，分别是GET，POST，PUT，DELETE">
 <meta property="og:type" content="article">
 <meta property="og:title" content="2019082603GETPOST区别">
 <meta property="og:url" content="http://yoursite.com/2019/08/26/2019-8-26-03/index.html">
 <meta property="og:site_name" content="icek Love Life Ann Writing">
-<meta property="og:description" content="白帽子学web安全笔记02浏览器安全02GET POST区别一 原理区别 一般在浏览器中输入网址访问资源都是通过GET方式；在FORM提交中，可以通过Method指定提交方式为GET或者POST，默认为GET提交 Http定义了与服务器交互的不同方法，最基本的方法有4种，分别是GET，POST，PUT，DELETE URL全称是资源描述符，我们可以这样认为：一个URL地址，它用于描述一个网络上的资">
+<meta property="og:description" content="白帽子学web安全笔记02浏览器安全02GET POST区别一 原理区别 一般在浏览器中输入网址访问资源都是通过GET方式；在FORM提交中，可以通过Method指定提交方式为GET或者POST，默认为GET提交 Http定义了与服务器交互的不同方法，最基本的方法有4种，分别是GET，POST，PUT，DELETE">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-08-26T10:24:22.148Z">
+<meta property="og:updated_time" content="2019-08-26T10:27:28.383Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="2019082603GETPOST区别">
-<meta name="twitter:description" content="白帽子学web安全笔记02浏览器安全02GET POST区别一 原理区别 一般在浏览器中输入网址访问资源都是通过GET方式；在FORM提交中，可以通过Method指定提交方式为GET或者POST，默认为GET提交 Http定义了与服务器交互的不同方法，最基本的方法有4种，分别是GET，POST，PUT，DELETE URL全称是资源描述符，我们可以这样认为：一个URL地址，它用于描述一个网络上的资">
+<meta name="twitter:description" content="白帽子学web安全笔记02浏览器安全02GET POST区别一 原理区别 一般在浏览器中输入网址访问资源都是通过GET方式；在FORM提交中，可以通过Method指定提交方式为GET或者POST，默认为GET提交 Http定义了与服务器交互的不同方法，最基本的方法有4种，分别是GET，POST，PUT，DELETE">
   
     <link rel="alternative" href="/atom.xml" title="icek Love Life Ann Writing" type="application/atom+xml">
   
@@ -161,6 +161,8 @@
         <h1 id="白帽子学web安全笔记02"><a href="#白帽子学web安全笔记02" class="headerlink" title="白帽子学web安全笔记02"></a>白帽子学web安全笔记02</h1><h2 id="浏览器安全02"><a href="#浏览器安全02" class="headerlink" title="浏览器安全02"></a>浏览器安全02</h2><h3 id="GET-POST区别"><a href="#GET-POST区别" class="headerlink" title="GET POST区别"></a>GET POST区别</h3><p>一 原理区别</p>
 <pre><code>一般在浏览器中输入网址访问资源都是通过GET方式；在FORM提交中，可以通过Method指定</code></pre><p>提交方式为GET或者POST，默认为GET提交</p>
 <p>Http定义了与服务器交互的不同方法，最基本的方法有4种，分别是GET，POST，PUT，DELETE</p>
+<a id="more"></a>
+
 <p>URL全称是资源描述符，我们可以这样认为：一个URL地址，它用于描述一个网络上的资源，而<br>HTTP中的GET，POST，PUT，DELETE就对应着对这个资源的查 ，改 ，增 ，删 4个操作。到这里<br>大家应该有个大概的了解了，GET一般用于获取/查询资源信息，而POST一般用于更新资源信息(<br>个人认为这是GET和POST的本质区别，也是协议设计者的本意，其它区别都是具体表现形式的差<br>异)。</p>
 <p>　　根据HTTP规范，GET用于信息获取，而且应该是安全的和幂等的。</p>
 <p>　　1.所谓安全的意味着该操作用于获取信息而非修改信息。换句话说，GET请求一般不应产生<br>副作用。就是说，它仅仅是获取资源信息，就像数据库查询一样，不会修改，增加数据，不会<br>影响资源的状态。</p>
