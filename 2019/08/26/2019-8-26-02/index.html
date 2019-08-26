@@ -6,15 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2019 | icek Love Life Ann Writing</title>
+  <title>2019082602 | icek Love Life Ann Writing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="icek Love Life Ann Writing">
-<meta property="og:url" content="http://yoursite.com/archives/2019/index.html">
+  <meta name="description" content="白帽子学web安全笔记02浏览器安全011、同源策略（same origin policy） 同源的定义如果两个页面的协议，端口（如果有指定）和主机都相同，则两个页面具有相同的源。我们也可以把它称为“协议/主机/端口 tuple”，或简单地叫做“tuple”.(“tuple” ，“元”，是指一些事物组合在一起形成一个整体，比如（1，2）叫二元，（1，2，3）叫三元)。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2019082602">
+<meta property="og:url" content="http://yoursite.com/2019/08/26/2019-8-26-02/index.html">
 <meta property="og:site_name" content="icek Love Life Ann Writing">
+<meta property="og:description" content="白帽子学web安全笔记02浏览器安全011、同源策略（same origin policy） 同源的定义如果两个页面的协议，端口（如果有指定）和主机都相同，则两个页面具有相同的源。我们也可以把它称为“协议/主机/端口 tuple”，或简单地叫做“tuple”.(“tuple” ，“元”，是指一些事物组合在一起形成一个整体，比如（1，2）叫二元，（1，2，3）叫三元)。">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-08-26T09:38:20.746Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="icek Love Life Ann Writing">
+<meta name="twitter:title" content="2019082602">
+<meta name="twitter:description" content="白帽子学web安全笔记02浏览器安全011、同源策略（same origin policy） 同源的定义如果两个页面的协议，端口（如果有指定）和主机都相同，则两个页面具有相同的源。我们也可以把它称为“协议/主机/端口 tuple”，或简单地叫做“tuple”.(“tuple” ，“元”，是指一些事物组合在一起形成一个整体，比如（1，2）叫二元，（1，2，3）叫三元)。">
   
     <link rel="alternative" href="/atom.xml" title="icek Love Life Ann Writing" type="application/atom+xml">
   
@@ -134,130 +138,230 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-2019-8-26-02" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      2019082602
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/08/26/2019-8-26-02/" class="archive-article-date">
+
+        
+        <a href="/2019/08/26/2019-8-26-02/" class="archive-article-date">
   	<time datetime="2019-08-26T09:32:48.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-26</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/08/26/2019-8-26-02/">2019082602</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="白帽子学web安全笔记02"><a href="#白帽子学web安全笔记02" class="headerlink" title="白帽子学web安全笔记02"></a>白帽子学web安全笔记02</h1><h2 id="浏览器安全01"><a href="#浏览器安全01" class="headerlink" title="浏览器安全01"></a>浏览器安全01</h2><h3 id="1、同源策略（same-origin-policy）"><a href="#1、同源策略（same-origin-policy）" class="headerlink" title="1、同源策略（same origin policy）"></a>1、同源策略（same origin policy）</h3><ul>
+<li>同源的定义<br>如果两个页面的协议，端口（如果有指定）和主机都相同，则两个页面具有相同的源<br>。我们也可以把它称为“协议/主机/端口 tuple”，或简单地叫做“tuple”.<br>(“tuple” ，“元”，是指一些事物组合在一起形成一个整体，比如（1，2）叫二元，<br>（1，2，3）叫三元)。<a id="more"></a>
 
-        <div class="article-info info-on-right">
-          
-          
+</li>
+</ul>
+<p>下表给出了相对<a href="http://store.company.com/dir/page.html同源检测的示例" target="_blank" rel="noopener">http://store.company.com/dir/page.html同源检测的示例</a>:</p>
+<p>URL    结果    原因<br><a href="http://store.company.com/dir2/other.html" target="_blank" rel="noopener">http://store.company.com/dir2/other.html</a>    成功     只有路径不同<br><a href="http://store.company.com/dir/inner/another.html" target="_blank" rel="noopener">http://store.company.com/dir/inner/another.html</a>    成功     只有路径不同<br><a href="https://store.company.com/secure.html" target="_blank" rel="noopener">https://store.company.com/secure.html</a>            失败    不同协议 ( https和http )<br><a href="http://store.company.com:81/dir/etc.html" target="_blank" rel="noopener">http://store.company.com:81/dir/etc.html</a>    失败    不同端口 ( http:// 80是默认的)<br><a href="http://news.company.com/dir/other.html" target="_blank" rel="noopener">http://news.company.com/dir/other.html</a>            失败    不同域名 ( news和store )</p>
+<ul>
+<li>源的继承<br>在页面中用 about:blank 或 javascript: URL 执行的脚本会继承打开该 URL 的文档的源<br>因为这些类型的 URLs 没有明确包含有关原始服务器的信息。</li>
+</ul>
+<p>例如，about:blank 通常作为父脚本写入内容的新的空白弹出窗口的 URL（例如，通过<br>Window.open()  机制）。 如果此弹出窗口也包含代码，则该代码将继承与创建它的脚本<br>相同的源。</p>
+<p>注意：在Gecko 6.0之前，如果用户在位置栏中输入 data URLs，data URLs 将继承当前浏<br>览器窗口中网页的安全上下文。</p>
+<p>data：URLs 获得一个新的，空的安全上下文。</p>
+<p>当涉及到同源策略时，Internet Explorer 有两个主要的不同点</p>
+<p>授信范围（Trust Zones）：两个相互之间高度互信的域名，如公司域名（corporate domains）<br>，不遵守同源策略的限制。<br>端口：IE 未将端口号加入到同源策略的组成部分之中，因此 <a href="http://company.com:81/index" target="_blank" rel="noopener">http://company.com:81/index</a>.<br>html 和 <a href="http://company.com/index.html" target="_blank" rel="noopener">http://company.com/index.html</a>  属于同源并且不受任何限制。<br>这些例外是非标准的，其它浏览器也未做出支持，但会助于开发基于window RT IE的应用程序。</p>
+<ul>
+<li>源的更改<br>页面可能会因某些限制而改变他的源。脚本可以将 document.domain 的值设置为其当前域或其<br>当前域的父域。如果将其设置为其当前域的父域，则这个较短的父域将用于后续源检查。假设<br><a href="http://store.company.com/dir/other.html" target="_blank" rel="noopener">http://store.company.com/dir/other.html</a> 文档中的一个脚本执行以下语句：</li>
+</ul>
+<p>document.domain = “company.com”;<br>这条语句执行之后，页面将会成功地通过对 <a href="http://company.com/dir/page.html" target="_blank" rel="noopener">http://company.com/dir/page.html</a> 的同源检测<br>（假设<a href="http://company.com/dir/page.html" target="_blank" rel="noopener">http://company.com/dir/page.html</a> 将其 document.domain 设置为“company.com”，<br>以表明它希望允许这样做 - 更多有关信息，请参阅 document.domain ）。然而，company.com<br>不能设置 document.domain 为 othercompany.com，因为它不是 company.com 的父域。</p>
+<p>端口号是由浏览器另行检查的。任何对document.domain的赋值操作，包括 document.domain =<br>document.domain 都会导致端口号被重写为 null 。因此 company.com:8080 不能仅通过设置<br>document.domain = “company.com” 来与company.com 通信。必须在他们双方中都进行赋值，<br>以确保端口号都为 null 。</p>
+<p>注意：使用 document.domain 来允许子域安全访问其父域时，您需要在父域和子域中设置<br> document.domain 为相同的值。这是必要的，即使这样做只是将父域设置回其原始值。不这<br>样做可能会导致权限错误。</p>
+<ul>
+<li>跨源网络访问<br>同源策略控制了不同源之间的交互，例如在使用XMLHttpRequest 或 <img> 标签时则会受到<br>同源策略的约束。这些交互通常分为三类：</li>
+</ul>
+<p>通常允许跨域写操作（Cross-origin writes）。例如链接（links），重定向以及表单提交。<br>特定少数的HTTP请求需要添加 preflight。<br>通常允许跨域资源嵌入（Cross-origin embedding）。之后下面会举例说明。<br>通常不允许跨域读操作（Cross-origin reads）。但常可以通过内嵌资源来巧妙的进行读取访<br>问。例如可以读取嵌入图片的高度和宽度，调用内嵌脚本的方法，或availability of an<br>embedded resource.<br>以下是可能嵌入跨源的资源的一些示例：</p>
+<script src="..."></script> 标签嵌入跨域脚本。语法错误信息只能在同源脚本中捕捉到。
+<link rel="stylesheet" href="..."> 标签嵌入CSS。由于CSS的松散的语法规则，CSS的跨
+域需要一个设置正确的Content-Type 消息头。不同浏览器有不同的限制： IE, Firefox, 
+Chrome, Safari (跳至CVE-2010-0051)部分 和 Opera。
+<img>嵌入图片。支持的图片格式包括PNG,JPEG,GIF,BMP,SVG,...
+<video> 和 <audio>嵌入多媒体资源。
+<object>, <embed> 和 <applet> 的插件。
+@font-face 引入的字体。一些浏览器允许跨域字体（ cross-origin fonts），一些需要同
+源字体（same-origin fonts）。
+<frame> 和 <iframe> 载入的任何资源。站点可以使用X-Frame-Options消息头来阻止这种形
+式的跨域交互。
 
+
+<ul>
+<li>如何允许跨源访问<br>使用 CORS 允许跨源访问。</li>
+</ul>
+<ul>
+<li>如何阻止跨源访问<br>阻止跨域写操作，只要检测请求中的一个不可测的标记(CSRF token)即可，这个标记被称为<br>Cross-Site Request Forgery (CSRF) 标记。必须使用这个标记来阻止页面的跨站读操作。<br>阻止资源的跨站读取，需要保证该资源是不可嵌入的。阻止嵌入行为是必须的，因为嵌入资<br>源通常向其暴露信息。<br>阻止跨站嵌入，需要确保你的资源不能是以上列出的可嵌入资源格式。多数情况下浏览器都<br>不会遵守 Content-Type 消息头。例如，如果您在HTML文档中指定 <script> 标记，则浏览<br>器将尝试将HTML解析为JavaScript。 当您的资源不是您网站的入口点时，您还可以使用CSRF<br>令牌来防止嵌入。</li>
+</ul>
+<ul>
+<li>跨源脚本API访问<br>Javascript的APIs中，如 iframe.contentWindow, window.parent, window.open 和 window<br>.opener 允许文档间直接相互引用。当两个文档的源不同时，这些引用方式将对 Window 和<br>Location对象的访问添加限制，如下两节所述。</li>
+</ul>
+<p>为了在不同源中文档进一步交流，可以使用window.postMessage。</p>
+<ul>
+<li>Window<br>规范:  <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/browsers.html">http://www.whatwg.org/specs/web-apps/current-work/multipage/browsers.html</a><br>#security-window.<br>允许以下对 Window 属性的跨源访问：</li>
+</ul>
+<p>方法<br>window.blur<br>window.close<br>window.focus<br>window.postMessage<br>属性<br>window.closed    只读.<br>window.frames    只读.<br>window.length    只读.<br>window.location    读/写.<br>window.opener    只读.<br>window.parent    只读.<br>window.self    只读.<br>window.top    只读.<br>window.window    只读.<br>某些浏览器允许访问比规范允许的更多属性。</p>
+<ul>
+<li>Location<br>规范:  <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/browsers.html">http://www.whatwg.org/specs/web-apps/current-work/multipage/browsers.html</a><br>#security-location.</li>
+</ul>
+<p>允许以下对 Location 属性的跨源访问：</p>
+<p>方法<br>location.replace<br>属性<br>URLUtils.href    只写.<br>某些浏览器允许访问比规范允许的更多属性。</p>
+<ul>
+<li>跨源数据存储访问<br>存储在浏览器中的数据，如localStorage和IndexedDB，以源进行分割。每个源都拥有自己<br>单独的存储空间，一个源中的Javascript脚本不能对属于其它源的数据进行读写操作。</li>
+</ul>
+<p>Cookies 使用不同的源定义方式。一个页面可以为本域和任何父域设置cookie，只要是父域<br>不是公共后缀（public suffix）即可。Firefox 和 Chrome 使用 Public Suffix List 决定<br>一个域是否是一个公共后缀（public suffix）。Internet Explorer使用其自己的内部方法<br>来确定域是否是公共后缀。不管使用哪个协议（HTTP/HTTPS）或端口号，浏览器都允许给定<br>的域以及其任何子域名(sub-domains) 访问 cookie。设置 cookie 时，你可以使用Domain，<br>Path，Secure，和Http-Only标记来限定其访问性。读取 cookie 时，不会知晓它的出处。<br>即使您仅使用安全的https连接，您看到的任何cookie都可能使用不安全的连接进行设置。</p>
+<p>同源策略是一种约定，很多浏览器实现同源策略是隐性、透明<br>的，很多同源策略导致的问题并没有明显的出错提示，但是如果不熟悉同源策略，则<br>可能一直都会想不明白问题的原因。<br>定义：浏览器的same origin policy ，限制了来自不同源的“document”或脚本，<br>对当前“document”读取或设置某些属性。</p>
+</script></li></ul></iframe></applet></object></audio></video>
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/zhifubao.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/weixin.png">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/08/26/2019-8-26-01/" class="archive-article-date">
-  	<time datetime="2019-08-26T04:21:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-26</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2019/08/26/2019-8-26-01/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">2019082601</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/08/26/2019-8-26-01/">2019082601</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#白帽子学web安全笔记02"><span class="toc-number">1.</span> <span class="toc-text">白帽子学web安全笔记02</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#浏览器安全01"><span class="toc-number">1.1.</span> <span class="toc-text">浏览器安全01</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1、同源策略（same-origin-policy）"><span class="toc-number">1.1.1.</span> <span class="toc-text">1、同源策略（same origin policy）</span></a></li></ol></li></ol></li></ol>
+                    </div>
+                </span>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+        
+    </div>
+</aside>
+
+
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/08/25/2019-8-25-02/" class="archive-article-date">
-  	<time datetime="2019-08-25T14:05:27.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-25</time>
-</a>
-        </div>
-    	 
+  <div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="2019-8-26-02" data-title="2019082602" data-url="http://yoursite.com/2019/08/26/2019-8-26-02/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"true"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/08/25/2019-8-25-02/">2019.8.25-02</a>
-    </h1>
+  
+  
+  <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<script>
+  var cloudTieConfig = {
+    url: "http://yoursite.com/2019/08/26/2019-8-26-02/", 
+    sourceId: "2019-8-26-02",
+    productKey: "true",
+    target: "cloud-tie-wrapper"
+  };
+</script>
+<script src="//img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/08/25/2019-8-25-01/" class="archive-article-date">
-  	<time datetime="2019-08-25T09:06:54.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-25</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/08/25/2019-8-25-01/">2019.8.25</a>
-    </h1>
+  <div id="SOHUCS" sid="2019-8-26-02" ></div> 
+<script charset="utf-8" type="text/javascript" src="//changyan.sohu.com/upload/changyan.js" ></script>
+<script type="text/javascript">
+    window.changyan.api.config({
+        appid: "true",
+        conf: "true"
+    });
+</script>
+</script>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
 
 
           </div>
@@ -280,8 +384,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
